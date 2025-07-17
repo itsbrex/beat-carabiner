@@ -532,6 +532,7 @@ glitches.")
                               "Unable to connect to Carabiner; make sure it is running on the specified port.")
                              (catch Throwable t
                                (timbre/error t "Problem running failure-fn"))))
+                         (.stop carabiner-runner)
                          oldval)))))
    (when (active?)
      (future
