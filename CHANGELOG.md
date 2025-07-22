@@ -6,6 +6,11 @@ This change log follows the conventions of
 
 ## [Unreleased][unreleased]
 
+Nothing so far.
+
+
+## [8.0.0] - 2025-07-21
+
 ### Changed
 
 - Works with Beat Link 8.x, to add compatibility with the Opus Quad,
@@ -43,6 +48,7 @@ This change log follows the conventions of
   the network), and more.
 - Fixed a `NullPointerException` when calling `connect` with no
   `failure-fn` supplied if Carabiner never replies.
+
 
 ## [0.2.3] - 2020-12-28
 
@@ -118,7 +124,8 @@ This change log follows the conventions of
 
 - Intitial Release.
 
-[Unreleased]: https://github.com/brunchboy/beat-carabiner/compare/v7.3.0...HEAD
+[Unreleased]: https://github.com/brunchboy/beat-carabiner/compare/v8.0.0...HEAD
+[8.0.0]: https://github.com/brunchboy/beat-carabiner/compare/v7.3.0...v8.0.0
 [7.3.0]: https://github.com/brunchboy/beat-carabiner/compare/v1.0.0...v7.3.0
 [1.0.0]: https://github.com/brunchboy/beat-carabiner/compare/v0.2.3...v1.0.0
 [0.2.3]: https://github.com/brunchboy/beat-carabiner/compare/v0.2.2...v0.2.3
